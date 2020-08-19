@@ -1,3 +1,3 @@
- ˚┊ ˗ˏ₊⊹ * :: soft, cozy aesthetic page ✦┊˚
+ ˚┊ ˗ˏ₊⊹ * :: my soft, cozy aesthetic main page ✦┊˚
         ⁎   ˚    𓄼    ﹒﹒   𓆇  ．   ˚
                    ˚   ．    ♡ 
