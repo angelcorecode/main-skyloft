@@ -5,9 +5,12 @@ body {    background-image: linear-gradient(to right, rgb(253, 242, 229), rgb(25
 
 h1 {font-family: lovenote;
     font-size: 50px;
+    color: #dcc4bc;
 }
 
-p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p {font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #c3ada5;
+}
 
 .profile {background-image: url("images/grid.jpg");
           background-repeat: repeat;
