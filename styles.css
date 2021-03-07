@@ -47,6 +47,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
     left:500px;
     top: 90px;   
 }
+
 /* link colors */
 a:link {
     color: #d8b6b6;
@@ -78,12 +79,12 @@ a:visited {
 .link {font-size: 15px;
   }
 
-ul span {
+#interests  span {
     position: relative;
     text-align: left;
 }
 
-ul  {font-family: Verdana, Geneva, Tahoma, sans-serif;
+#interests {font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #c3ada5;
     text-align: left;
     position: relative;
@@ -91,4 +92,13 @@ ul  {font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #balloon {width:230px;
+}
+
+#navbar  {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c3ada5;
+    text-align: center;
+    position: relative;
+    left: -25px;
+    list-style: none;
+    top: 40px;
 }
