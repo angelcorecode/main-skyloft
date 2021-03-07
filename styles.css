@@ -46,7 +46,7 @@ a:visited {
     color: #c2a6a6;
     background-color: transparent;
     text-decoration: none;
- }
+  }
 
   a:hover {
     color: #f1cece;
@@ -62,3 +62,15 @@ a:visited {
 
   .link {font-size: 15px;
   }
+
+ul span {
+    position: relative;
+    text-align: left;
+}
+
+ul  {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c3ada5;
+    text-align: left;
+    position: relative;
+    left: 60px;
+}
