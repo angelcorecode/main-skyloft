@@ -1,11 +1,21 @@
 body {    background-image: linear-gradient(to right, rgb(253, 242, 229), rgb(252, 227, 239));
 }
 
-@font-face { font-family: "lovenote"; src: url('https://static.tumblr.com/4yxykdm/k6plrfhwf/ck_love_note.ttf'); }
+@font-face { font-family: "lovenote"; src: url('https://static.tumblr.com/4yxykdm/k6plrfhwf/ck_love_note.ttf'); 
+}
+
+@font-face { font-family: "playdate"; src: url('https://static.tumblr.com/4yxykdm/XVZlrfl3m/playdate_1_.ttf'); 
+}
 
 h1 {font-family: lovenote;
     font-size: 50px;
     color: #dcc4bc;
+}
+
+h2 {font-family: playdate;
+    font-size: 20px;
+    color: #dcc4bc;
+    letter-spacing: 5px;
 }
 
 p {font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,3 +34,31 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
           left: 90px;
           top: 60px;   
 }
+
+/* link colors */
+a:link {
+    color: #d8b6b6;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:visited {
+    color: #c2a6a6;
+    background-color: transparent;
+    text-decoration: none;
+ }
+
+  a:hover {
+    color: #f1cece;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:active {
+    color: #d8b6b6;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .link {font-size: 15px;
+  }
