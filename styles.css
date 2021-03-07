@@ -1,4 +1,4 @@
-body {background: linear-gradient(-45deg,#FDF2E5, #FCE3EF);
+body {    background-image: linear-gradient(to right, rgb(253, 242, 229), rgb(252, 227, 239));
 }
 
 @font-face { font-family: "lovenote"; src: url('https://static.tumblr.com/4yxykdm/k6plrfhwf/ck_love_note.ttf'); }
@@ -14,6 +14,10 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;}
           text-align: center;
           border-radius: 3rem;
           box-shadow: 0rem 0rem 2em 1.5rem #ffffff;
+          border-color: #FFFFFF;
           width: 20rem;
           height: 45rem;
+          position: relative;
+          left: 90px;
+          top: 60px;   
 }
