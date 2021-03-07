@@ -52,6 +52,8 @@ a:link {
     color: #d8b6b6;
     background-color: transparent;
     text-decoration: underline;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted #c6a799;
   }
   
 a:visited {
@@ -72,7 +74,8 @@ a:visited {
     text-decoration: underline;
   }
 
-  .link {font-size: 15px;
+
+.link {font-size: 15px;
   }
 
 ul span {
@@ -85,4 +88,7 @@ ul  {font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     position: relative;
     left: 300px;
+}
+
+#balloon {width:230px;
 }
