@@ -98,7 +98,13 @@ a:visited {
     color: #c3ada5;
     text-align: center;
     position: relative;
-    left: -25px;
+    left: -30px;
     list-style: none;
-    top: 40px;
+    top: 30px;
+}
+
+#heart {top: 40px;
+        position: relative;
+        right: 11px;
+        color: #dcc4bc;
 }
