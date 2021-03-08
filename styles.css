@@ -81,13 +81,13 @@ a:active {color: #dbb6b681;
 .link {font-size: 15px;
   }
 
-/*list of websites=interests*/
-#interests  span {
+/*list of websites=games*/
+#games  span {
     position: relative;
     text-align: left;
 }
 
-#interests {font-family: Verdana, Geneva, Tahoma, sans-serif;
+#games {font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #c3ada5;
     text-align: left;
     position: relative;
