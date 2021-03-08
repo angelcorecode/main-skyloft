@@ -10,6 +10,11 @@ body {background-image: linear-gradient(to right, rgb(253, 242, 229), rgb(252, 2
 h1 {font-family: lovenote;
     font-size: 50px;
     color: #dcc4bc;
+    /*gradient background: linear-gradient( -45deg, #FCE3EF, #FDF2E5);
+    -webkit-text-fill-color: transparent;
+    animation: 梯度 6s ease infinite;
+    -webkit-background-clip: text;
+    background-size: 500% 500%; */
 }
 
 h2, h3 {font-family: playdate;
@@ -22,6 +27,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: #c3ada5;
 }
 
+/*left box*/
 .cover {background-image: url("images/grid.jpg");
           background-repeat: repeat;
           text-align: center;
@@ -35,6 +41,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
           top: 90px;   
 }
 
+/*right box*/
 .profile {background-image: url("images/grid.jpg");
     background-repeat: repeat;
     text-align: center;
@@ -49,36 +56,32 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* link colors */
-a:link {
-    color: #d8b6b6;
-    background-color: transparent;
-    text-decoration: underline;
-    padding-bottom: 2px;
-    border-bottom: 1px dotted #c6a799;
-  }
+a:link {color: #d8b6b6;
+        background-color: transparent;
+        text-decoration: underline;
+        padding-bottom: 2px;
+        border-bottom: 1px dotted #c6a799;
+}
   
-a:visited {
-    color: #c2a6a6;
-    background-color: transparent;
-    text-decoration: none;
-  }
+a:visited {color: #c2a6a6;
+           background-color: transparent;
+           text-decoration: none;
+}
 
-  a:hover {
-    color: #f1cece;
-    background-color: transparent;
-    text-decoration: none;
-  }
+a:hover {color: #f1cece;
+        background-color: transparent;
+        text-decoration: none;
+}
 
-  a:active {
-    color: #d8b6b6;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-
+a:active {color: #dbb6b681;
+        background-color: transparent;
+        text-decoration: underline;
+}
 
 .link {font-size: 15px;
   }
 
+/*list of websites=interests*/
 #interests  span {
     position: relative;
     text-align: left;
@@ -91,20 +94,43 @@ a:visited {
     left: 300px;
 }
 
-#balloon {width:230px;
-}
-
+/*navigation bar*/
 #navbar  {font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #c3ada5;
     text-align: center;
     position: relative;
     left: -30px;
     list-style: none;
-    top: 30px;
+    top: 25px;
 }
 
+/*heart symbol*/
 #heart {top: 40px;
         position: relative;
         right: 11px;
         color: #dcc4bc;
+}
+
+/*image sizes*/
+#balloon {width:230px;
+}
+
+#avatar {width:120px;
+        border-radius: 50%;
+        position: relative;
+        right: 305px;
+}
+
+/*tagline*/
+#tagline {font-family: lovenote;
+    font-size: 50px;
+    color: #dcc4bc;
+    font-weight:bold;
+    position: relative;
+    bottom: 165px;
+    letter-spacing: 3px;
+}
+
+/*profile bio*/
+.bio {font-size:20px;
 }
