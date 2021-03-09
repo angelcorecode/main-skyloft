@@ -111,10 +111,10 @@ a:active {color: #dbb6b681;
 }
 
 /*heart symbol*/
-#heart {top: 40px;
-        position: relative;
-        right: 11px;
-        color: #dcc4bc;
+#heart {top: 660px;
+    position: absolute;
+    right: 165px;
+    color: #dcc4bc;
 }
 
 /*image sizes*/
