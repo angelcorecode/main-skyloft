@@ -91,6 +91,7 @@ a:active {color: #dbb6b681;
 #games  span {
     position: relative;
     text-align: left;
+    line-height: 100%;
 }
 
 #games {font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -131,10 +132,11 @@ a:active {color: #dbb6b681;
 #tagline {font-family: lovenote;
     font-size: 50px;
     color: #dcc4bc;
-    font-weight:bold;
-    position: relative;
-    bottom: 165px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 550px;
     letter-spacing: 3px;
+    right: 50px;
 }
 
 /*profile bio*/
