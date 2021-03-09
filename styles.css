@@ -142,3 +142,20 @@ a:active {color: #dbb6b681;
 /*profile bio*/
 .bio {font-size:20px;
 }
+
+/*to rotate mobile screen landscape*/
+@media screen and (max-width: 1000px) and (orientation: portrait){
+    #everything { position: absolute; zoom: 155%;
+        left:570px;
+        top:80px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg); }
+    #stuff { overflow: auto; overflow: scroll; }
+    }
+    @media screen and (max-width: 1000px) and (orientation: landscape){
+    #everything { position: absolute; zoom: 100%; left:20px; top:10px;}
+    #stuff { overflow: auto; overflow: scroll; }
+    }
