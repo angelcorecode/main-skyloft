@@ -101,6 +101,7 @@ a:active {color: #dbb6b681;
     text-align: left;
     position: relative;
     left: 300px;
+    top: -10px;
 }
 
 /*navigation bar*/
