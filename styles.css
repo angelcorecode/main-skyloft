@@ -1,4 +1,5 @@
-body {background-image: linear-gradient(to right, rgb(253, 242, 229), rgb(252, 227, 239));
+body {background-image: url(images/background.png);
+    background-size: cover;
 }
 
 @font-face { font-family: "lovenote"; src: url('https://static.tumblr.com/4yxykdm/k6plrfhwf/ck_love_note.ttf'); 
@@ -42,7 +43,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
           border-color: #FFFFFF;
           width: 20rem;
           height: 45rem;
-          position: fixed;
+          position: absolute;
           left: 90px;
           top: 90px;   
 }
@@ -56,7 +57,7 @@ p {font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-color: #FFFFFF;
     width: 50rem;
     height: 45rem;
-    position: fixed;
+    position: absolute;
     left:500px;
     top: 90px;   
 }
@@ -67,6 +68,7 @@ a:link {color: #d8b6b6;
         text-decoration: underline;
         padding-bottom: 2px;
         border-bottom: 1px dotted #c6a799;
+        text-shadow: 0 0 10px #ffd4d4;
 }
   
 a:visited {color: #c2a6a6;
@@ -155,6 +157,7 @@ a:active {color: #dbb6b681;
         transform: rotate(90deg); }
     #stuff { overflow: auto; overflow: scroll; }
     }
+
 @media screen and (max-width: 1000px) and (orientation: landscape){
     #everything { position: absolute; zoom: 100%; left:20px; top:10px;}
     #stuff { overflow: auto; overflow: scroll; }
