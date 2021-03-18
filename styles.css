@@ -1,7 +1,7 @@
-body {background-image: url(images/background.png);
-    background-size: cover;
+body {background-color:lavenderblush;
+    /*background-image: url(images/background.png);
+    background-size: cover;*/
 }
-
 @font-face { font-family: "lovenote"; src: url('https://static.tumblr.com/4yxykdm/k6plrfhwf/ck_love_note.ttf'); 
 }
 
